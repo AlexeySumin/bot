@@ -240,7 +240,7 @@ class InteractHashtagLikers(Plugin):
                         "Iterated exactly the same likers twice, finish.",
                         extra={"color": f"{Fore.GREEN}"},
                     )
-                    logger.info(f"Back to #{hashtag}")
+                    logger.info(f"Back to {hashtag}")
                     device.back()
                     break
 
